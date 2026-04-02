@@ -1,12 +1,15 @@
 {
 	"editionUrls": [
 		{
-			"type": "main",
-			"value": "assets/data/ENGA.xml",
+			"value": "assets/data/Rotari/ER_critical_sample.xml",
 			"enable": true
 		},
 		{
-			"value": "assets/data/ENGR.xml",
+			"value": "assets/data/Rotari/CE34-5_ER_diplomatic_sample.xml",
+			"enable": true
+		},
+		{
+			"value": "assets/data/Rotari/CV188_ER_diplomatic_sample.xml",
 			"enable": true
 		}
 	],
@@ -25,8 +28,8 @@
 		"double": "assets/data/images/double/"
 	},
 	"configurationUrls": {
-		"edition": "assets/config/edition_config.json",
-		"ui": "assets/config/ui_config.json",
+		"edition": "assets/config/edition_config_Rotari.json",
+		"ui": "assets/config/ui_config_Rotari.json",
 		"editorialConventions": "assets/config/editorial_conventions_config.json"
 	}
 }
