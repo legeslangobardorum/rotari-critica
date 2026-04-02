@@ -1,7 +1,7 @@
 {
-  "editionTitle": "Aristotelis Ethicae ad Nicomachum filium Liber IV",
-  "badge": "beta synoptic-integrated",
-  "editionHome": "evt.labcd.unipi.it/",
+  "editionTitle": "The Edictus Rothari",
+  "badge": "EVT 3 Beta Integrated edition",
+  "editionHome": "",
   "availableEditionLevels": [
     {
       "id": "diplomatic",
@@ -73,6 +73,7 @@
       "namedEntityType": "object"
     }
   },
+  "namedEntitiesOccurrenceSelector": "persName[ref], placeName[ref], orgName[ref], geogName[ref], event[ref], term[ref], object[ref]",
   "showLists": true,
   "entitiesSelectItems": [
     {
@@ -132,7 +133,7 @@
     "type=orthographic"
   ],
   "defaultEdition": "critical",
-  "defaultViewMode": "collation",
+  "defaultViewMode": "readingText",
   "proseVersesToggler": true,
   "defaultTextFlow": "prose",
   "verseNumberPrinter": 5,
@@ -196,7 +197,7 @@
   "defaultImageZoomLevel": 0.8,
   "maxImageZoomLevel": 2,
   "multiPageEngineForCriticalEdition": false,
-  "editionStructureSeparator": "pb, div[corresp*='_div_']",
-  "exponentEnumerateBy": "div[type='paragraph']",
+  "editionStructureSeparator": "pb, div[type='capitula']",
+  "exponentEnumerateBy": "div[type='capitula']",
   "transformWitnessId": true
 }

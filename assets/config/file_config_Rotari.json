@@ -1,15 +1,15 @@
 {
 	"editionUrls": [
 		{
-			"value": "assets/data/Rotari/ER_critical_sample.xml",
+			"value": "assets/data/rotari/ER_critical_sample.xml",
 			"enable": true
 		},
 		{
-			"value": "assets/data/Rotari/CE34-5_ER_diplomatic_sample.xml",
+			"value": "assets/data/rotari/CE34-5_ER_diplomatic_sample.xml",
 			"enable": true
 		},
 		{
-			"value": "assets/data/Rotari/CV188_ER_diplomatic_sample.xml",
+			"value": "assets/data/rotari/CV188_ER_diplomatic_sample.xml",
 			"enable": true
 		}
 	],
